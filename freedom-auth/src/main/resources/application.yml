@@ -1,0 +1,14 @@
+server:
+  port: 9997
+  servlet:
+    context-path: /auth
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/maybe?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    username: root
+    password: root
+  application:
+    name: freedom-auth

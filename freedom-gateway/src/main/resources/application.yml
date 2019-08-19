@@ -1,0 +1,9 @@
+server:
+  port: 9998
+  servlet:
+    context-path: /gateway
+spring:
+  application:
+    name: freedom-gateway
+  profiles:
+    active: dev

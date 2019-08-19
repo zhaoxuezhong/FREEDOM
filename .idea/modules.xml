@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/freedom.iml" filepath="$PROJECT_DIR$/freedom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freedom-auth/freedom-auth.iml" filepath="$PROJECT_DIR$/freedom-auth/freedom-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freedom-base/freedom-base.iml" filepath="$PROJECT_DIR$/freedom-base/freedom-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freedom-common/freedom-common.iml" filepath="$PROJECT_DIR$/freedom-common/freedom-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freedom-gateway/freedom-gateway.iml" filepath="$PROJECT_DIR$/freedom-gateway/freedom-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freedom-logging/freedom-logging.iml" filepath="$PROJECT_DIR$/freedom-logging/freedom-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/freedom-server/freedom-server.iml" filepath="$PROJECT_DIR$/freedom-server/freedom-server.iml" />
+    </modules>
+  </component>
+</project>

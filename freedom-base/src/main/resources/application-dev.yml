@@ -1,0 +1,26 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/server/eureka/
+
+#ALWAYS 开启彩色输出
+#DETECT 尝试检测ANSI 颜色是否支持
+#NEVER 关闭彩色输出
+spring:
+  output:
+    ansi:
+      enabled:
+        ALWAYS
+  datasource:
+    dameng:
+      username: SYSDBA
+      password: 123456789
+      jdbc-url: jdbc:dm://localhost:5236/DAMENG?useUnicode=true&characterEncoding=utf-8
+      driver-class-name: dm.jdbc.driver.DmDriver
+
+#logback-spring.xml
+logback:
+  logDir: log
+  appName: freedom-base

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="freedom-auth" />
+        <module name="freedom-base" />
+        <module name="freedom-common" />
+        <module name="freedom-gateway" />
+        <module name="freedom-logging" />
+        <module name="freedom-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="freedom" target="1.8" />
+      <module name="freedom-auth" target="1.8" />
+      <module name="freedom-base" target="1.8" />
+      <module name="freedom-common" target="1.8" />
+      <module name="freedom-gateway" target="1.8" />
+      <module name="freedom-logging" target="1.8" />
+      <module name="freedom-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

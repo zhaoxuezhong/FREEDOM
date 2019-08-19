@@ -1,0 +1,14 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9999/server/eureka/
+
+spring:
+  datasource:
+    dameng:
+      username: SYSDBA
+      password: 123456789
+      jdbc-url: jdbc:dm://localhost:5236/DAMENG?useUnicode=true&characterEncoding=utf-8
+      driver-class-name: dm.jdbc.driver.DmDriver
